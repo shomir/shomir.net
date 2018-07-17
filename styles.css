@@ -1,5 +1,6 @@
 :root {
-    --university-color: rgb(30, 64, 124);
+    --psu-blue: rgb(30, 64, 124);
+    --bar-color: var(--psu-blue);
 }
 
 
@@ -22,13 +23,13 @@ body {
  opacity:1;
 }
 
-.sw-maroon,.sw-hover-maroon:hover {
- color: #fff!important;
- background-color: #B22222!important
+.sw-color,.sw-hover-color:hover {
+ color: #fff;
+ background-color: var(--psu-blue);
 }
 
-.sw-text-maroon,.sw-hover-text-maroon:hover {
- color:#B22222!important;
+.sw-text-color, .sw-hover-text-maroon:hover {
+ color: var(--psu-blue);
 }
 
 @media (max-width:992px) {
