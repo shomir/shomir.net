@@ -23,6 +23,12 @@ body {
  opacity:1;
 }
 
+blockquote {
+  border:1px;
+  border-style:solid;
+  padding: 1em;
+}
+
 .sw-color,.sw-hover-color:hover {
  color: #fff;
  background-color: var(--psu-blue);
