@@ -30,3 +30,17 @@
 
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Google Analytics -->
+<!-- SW: I disabled cookies and IP address collection in the below script -->
+<!-- Some inspiration borrowed from https://helgeklein.com/blog/2020/06/google-analytics-cookieless-tracking-without-gdpr-consent/ -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-36635929-1', {
+  'storage': 'none', 'anonymize_ip': true
+});
+
+ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
