@@ -69,7 +69,7 @@
       for (var j = 0; j < cols; j++) {
         var cell = row.insertCell();
         var img = document.createElement("img");
-        img.src = "images/photography_page/texture_and_color_tiles/texture_color-" + ((rows - i - 1) * cols + cols - j) + ".jpg";
+        img.src = "images/photography_page/texture_and_color_tiles/texture_color-" + (i * cols + j + 1) + ".jpg";
         cell.appendChild(img);
       }
     }
