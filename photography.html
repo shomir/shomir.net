@@ -28,6 +28,16 @@
 
 </script> -->
 
+  <style>
+  texture_and_color_table {
+    border-collapse: collapse;
+  }
+  td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+</style>
+
 </head><body>
 
 <div w3-include-html="includes/menu.html"></div>
@@ -46,6 +56,25 @@
   <h1>Texture and Color</h1>
   
   <p>Lorem Ipsum.</p>
+
+  <script>
+  // Function to generate the image table
+  function generateImageTable(rows, cols) {
+    var table = document.getElementById("imageTable");
+    for (var i = 0; i < rows; i++) {
+      var row = table.insertRow();
+      for (var j = 0; j < cols; j++) {
+        var cell = row.insertCell();
+        var img = document.createElement("img");
+        img.src = "images/photography_page/texture_and_color_tiles/texture_color-" + (i * cols + j + 1) + ".jpg";
+        cell.appendChild(img);
+      }
+    }
+  }
+
+  // Call the function with 4 rows and 7 columns
+  generateImageTable(4, 7);
+</script>
 
   <h1>Travel</h1>
 
