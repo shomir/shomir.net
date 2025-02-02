@@ -45,3 +45,8 @@ blockquote {
 .w3-main a {
  color: blue!important
 }
+
+hr.gray-thick {
+    border-top: 3px solid #bbb;
+    border-radius: 2px;
+}
