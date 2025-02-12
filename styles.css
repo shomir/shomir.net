@@ -46,7 +46,7 @@ blockquote {
  color: blue!important
 }
 
-hr.gray-thick {
+hr.story-divider {
     border-top: 3px solid #bbb;
     border-radius: 2px;
 }
